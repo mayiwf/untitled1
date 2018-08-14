@@ -1,7 +1,7 @@
 package com.mayw.pattendesign20180810.mediator20;
 
-public class ConCreateColleague1 extends Colleague{
-    public ConCreateColleague1(Mediator mediator) {
+public class ConCreateColleague2 extends Colleague{
+    public ConCreateColleague2(Mediator mediator) {
         super(mediator);
     }
 
@@ -10,7 +10,7 @@ public class ConCreateColleague1 extends Colleague{
     }
 
     public void notify(String message){
-        System.out.println("同事1得到信息--" + message);
+        System.out.println("同事2得到信息--" + message);
 
     }
 
